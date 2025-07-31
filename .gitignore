@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+*.sqlite3
+.env
+venv/
+*.log
+/data/fuel-prices-geocoded.csv
+/data/fuel-prices-for-be-assessment.csv
