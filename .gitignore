@@ -1,8 +1,15 @@
+# Byte-compiled / cache files
 *.pyc
 __pycache__/
+
+# SQLite database (not needed for this project)
 *.sqlite3
+
+# Environment variables
 .env
+
+# Virtual environment
 venv/
+
+# Log files
 *.log
-/data/fuel-prices-geocoded.csv
-/data/fuel-prices-for-be-assessment.csv
