@@ -53,7 +53,9 @@ Edit your `.env` file to include your [OpenRouteService](https://openrouteservic
 ORS_API_KEY="your_openrouteservice_api_key_here"
 GOOGLE_MAPS_API_KEY="your_google_maps_api_key_here"
 ```
+ORS_API_KEY: Required – used by the Django API for geocoding and routing.
 
+GOOGLE_MAPS_API_KEY: Optional – only needed if you want to re-run the preprocessing script cache_geocoded_stations.py to geocode the raw fuel dataset.
 
 ## 📊 Fuel Data Files
 
