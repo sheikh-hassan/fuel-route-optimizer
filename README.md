@@ -1,12 +1,7 @@
-Here's a **cleaned-up, professional, and well-structured version** of your `README.md` for the **Fuel Route Optimizer** project, optimized for clarity and ease of use:
-
----
-
 # 🚗⛽ Fuel Route Optimizer
 
 An optimized Django API that returns the **cheapest fuel stops** along a driving route in the **USA**, using **OpenRouteService** and a geocoded fuel price dataset.
 
----
 
 ## 🔧 Features
 
@@ -20,7 +15,6 @@ An optimized Django API that returns the **cheapest fuel stops** along a driving
   * Cheapest fuel stops
 * 📍 Uses geocoded data from \~8,000 U.S. fuel stations
 
----
 
 ## 📦 Tech Stack
 
@@ -31,7 +25,6 @@ An optimized Django API that returns the **cheapest fuel stops** along a driving
 * **Pandas, NumPy, SciPy**
 * **GeoPy**
 
----
 
 ## 🚀 Setup Instructions
 
@@ -51,19 +44,16 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
----
 
 ## 🔐 Environment Variables
 
 Edit your `.env` file to include your [OpenRouteService](https://openrouteservice.org/dev/#/signup) API key:
 
 ```env
-ORS_API_KEY=your_openrouteservice_api_key
+ORS_API_KEY="your_openrouteservice_api_key_here"
+GOOGLE_MAPS_API_KEY="your_google_maps_api_key_here"
 ```
 
-> ⚠️ Do **not** commit `.env`. Use `.env.example` to share sample variables.
-
----
 
 ## 📊 Fuel Data Files
 
@@ -75,8 +65,6 @@ The app uses two main CSV files located in the `data/` folder:
 | `fuel-prices-geocoded.csv`          | Geocoded version with latitude and longitude — **used by the app**             |
 
 No runtime geocoding is needed — the app uses the preprocessed file for fast spatial queries.
-
----
 
 ## 🧪 API Usage
 
@@ -98,7 +86,6 @@ No runtime geocoding is needed — the app uses the preprocessed file for fast s
 * Optimized fuel stops with cost breakdown
 * GeoJSON route with navigation steps
 
----
 
 ## 📁 Directory Structure
 
@@ -114,5 +101,3 @@ fuel-route-optimizer/
 ├── requirements.txt
 └── .env.example
 ```
-
-Let me know if you'd like me to add **badges**, **screenshots**, or a **live demo section**.
