@@ -85,19 +85,3 @@ No runtime geocoding is needed — the app uses the preprocessed file for fast s
 * Total route distance
 * Optimized fuel stops with cost breakdown
 * GeoJSON route with navigation steps
-
-
-## 📁 Directory Structure
-
-```
-fuel-route-optimizer/
-│
-├── data/
-│   ├── fuel-prices-for-be-assessment.csv
-│   └── fuel-prices-geocoded.csv
-├── env/                 ← Virtual environment
-├── fuel_app/            ← Django app logic
-├── manage.py
-├── requirements.txt
-└── .env.example
-```
